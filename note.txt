@@ -1,0 +1,55 @@
+ 
+To enable to support env file
+    # npm i dotenv
+
+To interact with mongo Database
+    # npm i mongoose
+
+Mongo DB is a json database, Nosql
+
+To start database, read documentaton in mongoosejs.com
+
+Datasetup
+    -> MongoDB install
+    -> Mongoose install
+    -> Mongoose database link -> vist to mongoosejs.com
+    -> Post Schema
+    -> User Schema
+    -> Manipulate
+    
+Populate
+    -> it links schema
+    -> learn how to reference schema
+
+MiddleWare = checkpoint = gate point
+    -> it is a checkpoint to go routes 
+    -> it define gate point 
+    -> learn how to pass data between middleware
+
+Gallary 
+    # npm i express-fileupload (to load file or image)
+
+client side browser ကနေဓါတ်ပုံတွေဆွဲလို့ရအောင်
+    const path = require('path')
+    app.use('/uploads',express.static(path.join(__dirname,'uploads')))
+
+req ရဲ့ body က data တွေကို validateလုပ်ဖို့ middleware တစ်ခုကို install လုပ်မယ်
+    # npm i joi
+    -> joi lets you describe your data using a simple, intuitive, and readable language.
+    -> visit joi.dev
+
+to generate hex of  password security 
+    -> npm i bcryptjs
+    -> visit npmjs.com/package/bcyptjs
+
+tokenization? 
+    -> register လုပ်လိုက်ရင် token တစ်ခုချပေးမယ်
+    # npm i jsonwebtoken
+
+pagination?
+    -> Page ခွဲပြီးပြတာ 
+    -> database server မနာအောင်
+
+How to add or remove like in post?
+
+
